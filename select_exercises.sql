@@ -37,8 +37,8 @@ SElECT 'All the albums with a genre of "Rock". N' AS 'Rock Genre Albums';
 SELECT * FROM albums
 WHERE genre = 'Rock';
 
-SELECT * FROM albums
-WHERE genre LIKE '%rock%';
+# SELECT * FROM albums
+# WHERE genre LIKE '%rock%';
 
 
 
