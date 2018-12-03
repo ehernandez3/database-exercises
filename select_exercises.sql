@@ -19,10 +19,10 @@ SELECT genre FROM albums
 WHERE name = 'Nevermind';
 
 -- Which albums were released in the 1990s
-# SELECT 'Albums relased in the 1900s' AS '1900s Albums';
-#
-# SELECT name FROM albums
-# WHERE release_date BETWEEN 1990 AND 1999;
+SELECT 'Albums relased in the 1900s' AS '1900s Albums';
+
+SELECT name FROM albums
+WHERE release_date BETWEEN 1990 AND 1999;
 
 -- Which albums had less than 20 million certified sales
 # SELECT 'Albums with less than 20 million certified sales' AS 'Sales under 20 million';
