@@ -25,10 +25,10 @@ SELECT name FROM albums
 WHERE release_date BETWEEN 1990 AND 1999;
 
 -- Which albums had less than 20 million certified sales
-# SELECT 'Albums with less than 20 million certified sales' AS 'Sales under 20 million';
-#
-# SELECT name FROM albums
-# WHERE sales < 20;
+SELECT 'Albums with less than 20 million certified sales' AS 'Sales under 20 million';
+
+SELECT name FROM albums
+WHERE sales < 20;
 
 -- All the albums with a genre of "Rock". Why do these query results
 -- not include albums with a genre of "Hard rock" or "Progressive rock"?
