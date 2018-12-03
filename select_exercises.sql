@@ -13,10 +13,10 @@ SELECT release_date FROM albums
 WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
 -- The genre for Nevermind
-# SELECT 'The genre for Nevermind' as 'Nevermind Genre';
-#
-# SELECT genre FROM albums
-# WHERE name = 'Nevermind';
+SELECT 'The genre for Nevermind' as 'Nevermind Genre';
+
+SELECT genre FROM albums
+WHERE name = 'Nevermind';
 
 -- Which albums were released in the 1990s
 # SELECT 'Albums relased in the 1900s' AS '1900s Albums';
