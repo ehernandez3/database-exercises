@@ -33,4 +33,4 @@ SET artist = 'Peter Jacskson'
 WHERE artist = 'Michael Jackson';
 SELECT * FROM albums;
 
-# Add SELECT statements after each UPDATE so you can see the results of your handiwork.
+# Add SELECT statements after each UPDATE so you can see the results of your handiwork
