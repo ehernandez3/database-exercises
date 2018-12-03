@@ -32,13 +32,13 @@ WHERE sales < 20;
 
 -- All the albums with a genre of "Rock". Why do these query results
 -- not include albums with a genre of "Hard rock" or "Progressive rock"?
-# SElECT 'All the albums with a genre of "Rock". N' AS 'Rock Genre Albums';
-#
-# SELECT * FROM albums
-# WHERE genre = 'Rock';
-#
-# SELECT * FROM albums
-# WHERE genre LIKE '%rock%';
+SElECT 'All the albums with a genre of "Rock". N' AS 'Rock Genre Albums';
+
+SELECT * FROM albums
+WHERE genre = 'Rock';
+
+SELECT * FROM albums
+WHERE genre LIKE '%rock%';
 
 
 
