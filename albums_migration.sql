@@ -1,6 +1,14 @@
 USE codeup_test_db;
 DROP TABLE IF EXISTS albums;
 
+CREATE TABLE albums (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  artist VARCHAR(240) NOT NULL,
+  name VARCHAR(240) NOT NULL,
+  release_date INT UNSIGNED NOT NULL,
+  sales FLOAT,
+  genre VARCHAR(240)
+)
 -- CREATE TABLE quotes (
 --     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 --     author_first_name VARCHAR(50),
@@ -18,12 +26,3 @@ DROP TABLE IF EXISTS albums;
 -- sales — floating point value for number of records sold (in millions)
 -- genre — string for storing the record's genre(s)
 
-CREATE TABLE albums (
-    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    artist VARCHAR(55) NOT NULL,
-    name VARCHAR(55) NOT NULL,
-    release_date INT NOT NULL,
-    sales FLOAT,
-    genre VARCHAR(55),
-    PRIMARY KEY (id)
-)
