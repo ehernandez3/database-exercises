@@ -14,10 +14,10 @@ ORDER BY emp_no;
 #     use datediff() to find how many days they have been working at the
 #     company (Hint: You will also need to use now() or curdate())
 
-SELECT DATEDIFF(NOW(), hire_date) FROM employees
+SELECT CONCAT(first_name, ' ', last_name), DATEDIFF(NOW(), hire_date) FROM employees
 WHERE ((hire_date BETWEEN '1990-01-01' AND '1999-12-31')
          AND birth_date LIKE '%-12-25')
-ORDER BY birth_date, hire_date DESC;
+ORDER BY hire_date, birth_date;
 
 
 
