@@ -1,14 +1,24 @@
 USE codeup_test_db;
 DROP TABLE IF EXISTS albums;
 
+# CREATE TABLE albums (
+#   id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+#   artist VARCHAR(240) NOT NULL,
+#   name VARCHAR(240) NOT NULL,
+#   release_date INT UNSIGNED NOT NULL,
+#   sales FLOAT,
+#   genre VARCHAR(240)
+# );
+
 CREATE TABLE albums (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   artist VARCHAR(240) NOT NULL,
   name VARCHAR(240) NOT NULL,
-  release_date INT UNSIGNED NOT NULL,
+  release_date INT UNSIGNED,
   sales FLOAT,
   genre VARCHAR(240)
-)
+);
+
 -- CREATE TABLE quotes (
 --     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 --     author_first_name VARCHAR(50),
