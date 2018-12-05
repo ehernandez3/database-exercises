@@ -90,10 +90,8 @@ FROM departments AS d
           ON de.dept_no = d.dept_no
         JOIN dept_manager AS dm
           ON de.emp_no = dm.emp_no
-
-
         JOIN employees AS e
-          ON de.emp_no = e.emp_no
+          ON dm.emp_no = e.emp_no;
 
 
 
